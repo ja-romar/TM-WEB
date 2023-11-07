@@ -1,0 +1,308 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --padding: 10px;
+    /*--padding-section: 80px */
+}
+
+* {
+    background-color: #E9EBEC;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+}
+
+nav {
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+    padding-top: var(--padding);
+    padding-bottom: var(--padding-section);
+}
+
+.nav_link {
+    margin-left: auto;
+    display: flex;
+    width: 472px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #252B33;
+    font-family: Darker Grotesque;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+}
+
+.nav_links {
+    text-decoration: none;
+    list-style: none;
+    color: #252B33;
+}
+
+.nav_button{
+    color: #E9EBEC;
+    display: flex;
+    width: 136.415px;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F36;
+}
+
+h1 {
+    color: #252B33;
+    font-family: Darker Grotesque;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 83.333% */
+}
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1119px;
+    height: 645px;
+    flex-shrink: 0;
+    background: url(/Images/landing/heroimg.png);
+    background-repeat: no-repeat;
+}
+
+.hero_paragraph {
+    color: #252B33;
+text-align: center;
+font-family: Darker Grotesque;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 100% */
+}
+
+.hero_ctas {
+    display: inline-flex;
+align-items: flex-start;
+gap: 35px;
+}
+.cta {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F36;
+    color: #FFF;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    text-decoration: none;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.cta--blue {
+    background: #2F7BBD;
+}
+
+.container_advantages {
+    /*width: 1280px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 125px;
+}
+
+.container_advantages2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    gap: 80%;
+}
+
+.acess {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages-icon {
+    height: 120px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icons-text {
+    text-align: center;
+    text-justify: auto;
+    color: #33363F;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+}
+
+.subtitle {
+    color: #252B33;
+text-align: center;
+font-family: Darker Grotesque;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 39.063% */
+}
+
+.pack_title {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.packs_paragraph {
+    color: #252B33;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 78.125% */
+}
+
+.pack_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.price_element {
+     /*display: flex; */
+    padding-bottom: 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #2F7BBD;
+    width: 280px;
+    height: 850px;
+}
+
+.pack_element_title {
+    color: #252B33;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px;
+}
+
+.pack_element_paragraph {
+    color: #252B33;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 83.333% */
+}
+
+.price_price {
+    color: #252B33;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+}
+
+.pack_cta {
+    margin: 0 auto 20px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #F36;
+    color: #FFF;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    text-decoration: none;
+}
+
+.pack_cta_blue {
+    margin: 0 auto 20px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #2F7BBD;
+    color: #FFF;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    text-decoration: none;
+}
+.divider {
+    margin: 0 auto;
+    width: 80%;
+    height: 2px;
+    background: #2F7BBD;;
+}
+
+.element_features {
+    text-align: start;
+    color: #252B33;
+    font-family: Darker Grotesque;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 25px; /* 104.167% */
+}
+
+body {
+
+    max-width: 1280px;
+    font-family: Darker Grotesque;
+    margin: 0 auto;
+}
