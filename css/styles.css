@@ -416,6 +416,11 @@ body {
     text-align: center;
 }
 
+.question_container {
+    display: grid;
+    gap: 2em;
+}
+
 
 
 /* Media querys */
