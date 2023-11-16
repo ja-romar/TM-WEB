@@ -349,6 +349,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 80px;
 }
 
 
@@ -418,7 +419,7 @@ body {
     max-width: 1000px;
     margin: 2rem auto;
     font-family: Darker Grotesque;
-    margin-bottom: 40px;
+    padding-bottom: 80px;
   }
   .accordion-item {
     color: #111;
