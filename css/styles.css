@@ -14,24 +14,34 @@
 .container {
     width: 90%;
     max-width: 1280px;
+    margin: 0 auto;
 }
+
+body {
+
+    /* max-width: 1280px; */
+     font-family: Darker Grotesque;
+     margin: 0 auto;
+ }
 
 /* Nav bar */
 
-nav {
-    width: 1280px;
+.nav {
     display: flex;
+  /*  margin: 0 auto; */
     justify-content: center;
-    align-items: center;
+    max-width: none;
+    align-items: center; 
     gap: 10px;    
     padding-top: var(--padding);
     padding-bottom: var(--padding-section);
+    overflow: hidden;
 }
 
 .nav_link {
     margin-left: auto;
     display: flex;
-    width: 472px;
+    width: auto;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -78,7 +88,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+  /*  margin: 0 auto; */
 }
 
 .hero_img {
@@ -309,12 +319,7 @@ line-height: 25px; /* 39.063% */
     line-height: 25px; /* 104.167% */
 }
 
-body {
 
-    max-width: 1280px;
-    font-family: Darker Grotesque;
-    margin: 0 auto;
-}
 
 /*Explanation section */
 
@@ -468,6 +473,123 @@ body {
       font-size: 14px;
     }
   }
+ 
+/* Footer Section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 580px;
+    background-color: #252B33;
+}
+
+.footer-logo {
+    margin: 0 auto;
+    background: none;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background: none;
+    padding-bottom: 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    list-style: none;
+    background: none;
+}
+
+.footer-link-text {
+    font-family: Darker Grotesque;
+    font-size: 42px;
+    font-weight: 400;
+    color: #FFF;
+    background: none;
+    text-decoration: none;
+}
+
+.footer-cta-container {
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+    background: none;
+    padding-bottom: 40px;
+}
+
+.footer-cta {
+    color: #E9EBEC;
+    display: flex;
+    width: 136.415px;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F36;
+}
+
+.rrss {
+    display: flex;
+    margin: 0 auto;
+    background: none;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.facebook-logo-img, .ig-logo-img, .tiktok-logo-img {
+    background: none;
+}
+
+.facebook-logo, .ig-logo, .tiktok-logo {
+    background: none;
+}
+
+.divider-footer {
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    color: #FFF;
+    max-width: auto;
+}
+
+
+.blackdog-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.blackdog-logo {
+    background: none;
+}
+
+
+.blackdog-img{
+    background: none;
+    width: 100px;
+}
+
+.footer-text {
+    background: none;
+    color: #FFF;
+}
 
 /* Media querys */
 
