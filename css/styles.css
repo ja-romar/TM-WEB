@@ -177,7 +177,6 @@ gap: 35px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding-top: 3rem;
     padding-bottom: 3rem;
     gap: 80%;
 }
@@ -424,7 +423,6 @@ line-height: 2.5rem; /* 39.063% */
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
-    margin: 24px;
 }
 
 .paragraph_catalog {
