@@ -1,7 +1,9 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+html{
+    font-size: 16px;
+}
 :root {
     --padding: 10px;
 }
@@ -55,12 +57,13 @@ body {
     gap: 50px;
     color: #252B33;
     font-family: Darker Grotesque;
-    font-size: 1.5rem;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     list-style: none;
+    font-size: 1.5rem;
 }
+
+
 
 .nav_links {
     text-decoration: none;
@@ -84,7 +87,7 @@ body {
 h1 {
     color: #252B33;
     font-family: Darker Grotesque;
-    font-size: 96px;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 80px; /* 83.333% */
@@ -110,13 +113,15 @@ h1 {
     background-repeat: no-repeat;
 }
 
+
+
 .hero_paragraph {
-    color: #252B33;
+color: #252B33;
 text-align: center;
 font-family: Darker Grotesque;
-font-size: 40px;
+font-size: 2rem;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 line-height: 40px; /* 100% */
 }
 
@@ -136,13 +141,13 @@ gap: 35px;
     color: #FFF;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
     text-decoration: none;
-    padding-top: var(--padding);
-    padding-bottom: var(--padding);
+     /*padding-top: var(--padding);
+    padding-bottom: var(--padding);*/   
 }
 
 .cta--blue {
@@ -191,23 +196,27 @@ gap: 35px;
     color: #33363F;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 100% */
+    line-height: 1.5rem; /* 100% */
 }
 
 .subtitle {
-    color: #252B33;
+
+color: #252B33;
 text-align: center;
 font-family: Darker Grotesque;
-font-size: 64px;
+font-size: 2.5rem;
 font-style: normal;
 font-weight: 700;
-line-height: 25px; /* 39.063% */
-}
+line-height: 2.5rem; /* 39.063% */
+} 
 
 /* Packs section */
+
+
+
 
 .pack_title {
     padding-top: var(--padding);
@@ -215,17 +224,21 @@ line-height: 25px; /* 39.063% */
 }
 
 .packs_paragraph {
+    width: 90%;
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 32px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 78.125% */
+    line-height: 1.5rem; /* 78.125% */
 }
+
+
 
 .pack_container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
@@ -244,7 +257,7 @@ line-height: 25px; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     margin: 24px;
@@ -264,7 +277,7 @@ line-height: 25px; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
@@ -282,7 +295,7 @@ line-height: 25px; /* 39.063% */
     color: #FFF;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; 
@@ -301,7 +314,7 @@ line-height: 25px; /* 39.063% */
     color: #FFF;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; 
@@ -318,7 +331,7 @@ line-height: 25px; /* 39.063% */
     text-align: start;
     color: #252B33;
     font-family: Darker Grotesque;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 200;
     line-height: 25px; /* 104.167% */
@@ -333,7 +346,7 @@ line-height: 25px; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     margin: 10px;
@@ -345,7 +358,7 @@ line-height: 25px; /* 39.063% */
     color: #33363F;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
@@ -374,7 +387,7 @@ line-height: 25px; /* 39.063% */
 }
 
 .cta_catalog {
-    display: flex; 
+    display: flex;
     padding: 5px 20px;
     justify-content: center;
     align-items: center;
@@ -384,17 +397,11 @@ line-height: 25px; /* 39.063% */
     color: #FFF;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
     text-decoration: none;
-    padding-top: var(--padding);
-    padding-bottom: var(--padding);
-    margin-bottom: 40px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 35px;
 }
 
 .title_catalog {
@@ -402,7 +409,7 @@ line-height: 25px; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 64px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     margin: 24px;
@@ -412,7 +419,7 @@ line-height: 25px; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 32px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 78.125% */
@@ -442,8 +449,8 @@ line-height: 25px; /* 39.063% */
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 700;
     display: flex;
     align-items: center;
     position: relative;
@@ -452,7 +459,7 @@ line-height: 25px; /* 39.063% */
   }
   .accordion-item-header::after {
     content: "\002B";
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
     right: 1rem;
   }
@@ -465,17 +472,13 @@ line-height: 25px; /* 39.063% */
     transition: max-height 0.2s ease-out;
   }
   .accordion-item-body-content {
-    font-size: 32px;
+    font-size: 1.5rem;
     padding: 1rem;
     border-top: 1px solid;
     border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
   }
   
-  @media(max-width:767px) {
-    html {
-      font-size: 14px;
-    }
-  }
+ 
  
 /* Footer Section */
 .footer {
@@ -508,6 +511,7 @@ line-height: 25px; /* 39.063% */
     gap: 80px;
     background: none;
     padding-bottom: 40px;
+    font-size: 1.5rem;
 }
 
 .footer-link {
@@ -518,8 +522,7 @@ line-height: 25px; /* 39.063% */
 
 .footer-link-text {
     font-family: Darker Grotesque;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
     color: #FFF;
     background: none;
     text-decoration: none;
@@ -596,8 +599,12 @@ line-height: 25px; /* 39.063% */
 }
 
 /* Media querys */
-
+/* 1280px */
 @media (max-width: 1280px) {
+
+    html {
+        font-size: 12.8px;
+    }
 
     .container_advantages2 {
         display: flex;
@@ -609,17 +616,9 @@ line-height: 25px; /* 39.063% */
         min-width: 194px;
     }
 
-    /*.hero_img { */
-       /* display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 700px;
-        height: 200px;
-        flex-shrink: 0;
-        background: url(/images/landing/heroimg.png);
-        background-repeat: no-repeat; 
-    } */
 }
+
+/* 1150px */
 
 @media (max-width: 1150px) {
 
@@ -643,6 +642,8 @@ line-height: 25px; /* 39.063% */
         visibility: visible;
     }
 }
+
+/* 1024px */
 
 @media (max-width: 1024px) {
      .nav_link--menu {
@@ -678,51 +679,24 @@ line-height: 25px; /* 39.063% */
     h1 {
         color: #252B33;
         font-family: Darker Grotesque;
-        font-size: 68px;
-        font-style: normal;
-        font-weight: 700;
+     
         line-height: 80px; /* 83.333% */
     }
 
-    .hero_paragraph {
-        font-size: 32px;
-    }
 
-    .cta {
-        font-size: 32px;
-    }
 
     .advantages-icon {
         width: 80px;
         height: auto;
     }
 
-    .pack_cta {
-        font-size: 32px;
-    }
-
-    .pack_cta_blue {
-        font-size: 32px;
-    }
-
-    .icons-text {
-        font-size: 32px;
-    }
-
-    .subtitle {
-        font-size: 48px;
-    }
-    
-    .icons-exp-text {
-        font-size: 32px;
-    }
-
-    .title_catalog {
-        font-size: 40px;
-    }
-}
-
+}  
 @media (max-width: 795px) {
+
+    html {
+        font-size: 10px;
+    }
+
     .hero_img {
         display: flex;
         justify-content: center;
@@ -733,4 +707,5 @@ line-height: 25px; /* 39.063% */
         background: url(/images/landing/heroimg-795.png);
         background-repeat: no-repeat;
     }  
+
 }
