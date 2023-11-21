@@ -4,9 +4,7 @@
 html{
     font-size: 16px;
 }
-:root {
-    /*--padding: 1rem;*/
-}
+
 
 * {
     background-color: #E9EBEC;
@@ -259,6 +257,10 @@ line-height: 2.5rem; /* 39.063% */
     height: 850px;
 }
 
+.price_element--pink{
+    border: 2px solid #F36;
+}
+
 .pack_element_title {
     color: #252B33;
     text-align: center;
@@ -330,7 +332,11 @@ line-height: 2.5rem; /* 39.063% */
     margin: 0 auto;
     width: 80%;
     height: 2px;
-    background: #2F7BBD;;
+}
+
+.divider--pink {
+    background: #F36;
+
 }
 
 .element_features {
