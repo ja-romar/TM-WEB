@@ -129,7 +129,7 @@ font-family: Darker Grotesque;
 font-size: 2rem;
 font-style: normal;
 font-weight: 400;
-line-height: 40px; /* 100% */
+line-height: 1.8rem; /* 100% */
 }
 
 .hero_ctas {
@@ -169,7 +169,7 @@ gap: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 80%;
 }
 
 .container_advantages2 {
@@ -187,6 +187,8 @@ gap: 35px;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .advantages-icon {
     height: 120px;
@@ -243,7 +245,7 @@ line-height: 2.5rem; /* 39.063% */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: .8rem;
     justify-content: center;
 }
 
@@ -252,8 +254,8 @@ line-height: 2.5rem; /* 39.063% */
     text-align: center;
     border-radius: 10px;
     border: 2px solid #2F7BBD;
-    width: 280px;
-    height: 850px;
+    width: 17.5rem;
+   /* height: 55.125rem; */
 }
 
 .price_element--pink{
@@ -274,11 +276,12 @@ line-height: 2.5rem; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 83.333% */
+    line-height: 1.3rem; /* 83.333% */
 }
+
 
 .price_price {
     color: #252B33;
@@ -331,6 +334,7 @@ line-height: 2.5rem; /* 39.063% */
     margin: 0 auto;
     width: 80%;
     height: 2px;
+    background: #252B33;
 }
 
 .divider--pink {
@@ -345,7 +349,7 @@ line-height: 2.5rem; /* 39.063% */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 200;
-    line-height: 25px; /* 104.167% */
+    line-height: 1.5rem; /* 104.167% */
 }
 
 
@@ -397,7 +401,7 @@ line-height: 2.5rem; /* 39.063% */
     justify-content: center;
 }
 
-.cta_catalog {
+ .cta_catalog {
     display: flex;
     padding: 2px 20px;
     justify-content: center;
@@ -550,7 +554,7 @@ line-height: 2.5rem; /* 39.063% */
     color: #E9EBEC;
     display: flex;
     width: 136.415px;
-    padding: 5px 20px;
+    padding: 1px 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -618,7 +622,8 @@ line-height: 2.5rem; /* 39.063% */
 
     .container_advantages2 {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        gap: 50%;
     }
 
     .logo-img {
@@ -701,6 +706,9 @@ line-height: 2.5rem; /* 39.063% */
     }
 
 }  
+
+/* 795px */
+
 @media (max-width: 795px) {
 
     html {
@@ -717,5 +725,17 @@ line-height: 2.5rem; /* 39.063% */
         background: url(/images/landing/heroimg-795.png);
         background-repeat: no-repeat;
     }  
+
+    .container_advantages2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+    }
+
+    
+
+
+
 
 }
