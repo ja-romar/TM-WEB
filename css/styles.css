@@ -139,7 +139,7 @@ gap: 35px;
 }
 .cta {
     display: flex;
-    padding: 1px 20px;
+    padding: 1px 1.25rem;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -297,7 +297,7 @@ line-height: 2.5rem; /* 39.063% */
     margin: 0 auto 20px;
     display: flex;
     width: 80%;
-    height: 50px;
+    height: 3.12rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -316,7 +316,7 @@ line-height: 2.5rem; /* 39.063% */
     margin: 0 auto 20px;
     display: flex;
     width: 80%;
-    height: 50px;
+    height: 3.12rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -403,7 +403,7 @@ line-height: 2.5rem; /* 39.063% */
 
  .cta_catalog {
     display: flex;
-    padding: 2px 20px;
+    padding: 2px 1.25rem;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -505,24 +505,29 @@ line-height: 2.5rem; /* 39.063% */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 580px;
+    height: 44.25rem;
     background-color: #252B33;
 }
 
 .footer-logo {
-    max-width: 90%;
+  
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 8rem;
     margin: 0 auto;
     background: none;
     color: #FFF;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .footer-nav {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 3.3rem;
     background: none;
     padding-bottom: 40px;
     font-size: 1.5rem;
@@ -547,14 +552,14 @@ line-height: 2.5rem; /* 39.063% */
     justify-content: center;
     max-width: auto;
     background: none;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .footer-cta {
     color: #E9EBEC;
     display: flex;
     width: 136.415px;
-    padding: 1px 20px;
+    padding: 1px 1.20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -567,15 +572,17 @@ line-height: 2.5rem; /* 39.063% */
     margin: 0 auto;
     background: none;
     gap: 30px;
-    padding-top: 40px;
+    padding-top: 3.5rem;
 }
 
 .facebook-logo-img, .ig-logo-img, .tiktok-logo-img {
     background: none;
+    width: 2.5rem;
 }
 
 .facebook-logo, .ig-logo, .tiktok-logo {
     background: none;
+    width: 2.4rem
 }
 
 .divider-footer {
@@ -628,7 +635,7 @@ line-height: 2.5rem; /* 39.063% */
 
     .logo-img {
         width: 80%;
-        min-width: 194px;
+        min-width: 8.75rem;
     }
 
 }
@@ -733,9 +740,40 @@ line-height: 2.5rem; /* 39.063% */
         gap: 2.5rem;
     }
 
-    
+    .catalog_img {
+        width: 280px;
+    }
 
 
+@media (max-width: 425px) {
+    h1 {
+        font-size: 3rem;
+    }
+}   
 
+     .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 1.3rem;
+    }
+
+    .hero_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 175px;
+        flex-shrink: 0;
+        background: url(/images/landing/hero-325.png);
+        background-repeat: no-repeat;
+    }
 
 }
