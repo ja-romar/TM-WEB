@@ -276,7 +276,7 @@ line-height: 2.5rem; /* 39.063% */
     color: #252B33;
     text-align: center;
     font-family: Darker Grotesque;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.3rem; /* 83.333% */
@@ -346,7 +346,7 @@ line-height: 2.5rem; /* 39.063% */
     text-align: start;
     color: #252B33;
     font-family: Darker Grotesque;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem; /* 104.167% */
@@ -673,12 +673,12 @@ line-height: 2.5rem; /* 39.063% */
         position: fixed;
         background-color: #E9EBEC;
         top: 0;
-        left: 0;
-        height: 100%;
+       /* left: 0; */
+        height: 80%;
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly; 
+        justify-content: space-around; 
         align-items: center;
         z-index: 100;
         opacity: 0;
@@ -689,9 +689,7 @@ line-height: 2.5rem; /* 39.063% */
         display: block;
     }
 
-    .nav_links {
-        gap: 10px;
-    }
+    
 
     .nav_link--show{
         --show: block;
