@@ -505,7 +505,7 @@ line-height: 2.5rem; /* 39.063% */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 44.25rem;
+    height: auto;
     background-color: #252B33;
 }
 
@@ -602,6 +602,7 @@ line-height: 2.5rem; /* 39.063% */
     gap: 15px;
     margin: 0 auto;
     margin-top: 10px;
+    padding-bottom: 1.5rem;
 }
 
 .blackdog-logo {
