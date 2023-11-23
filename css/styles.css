@@ -43,17 +43,22 @@ body {
     display: none;
 }
 
+.nav_img {
+    display: block;
+}
+
 .nav-close{
     display: var(--show, none);
 }
 
 .nav_link {
     margin-left: auto;
-    display: flex;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    margin-right: -1rem;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 1.5em;
     color: #252B33;
     font-family: Darker Grotesque;
     font-weight: 700;
