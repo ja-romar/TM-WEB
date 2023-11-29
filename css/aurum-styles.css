@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-color: #E4E4E4;
+}
+
+/* Empieza hero */
+.hero-image {
+    background-image: url(/images/aurum/hero-image.png); 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.names {
+    display: inline-flex;
+    padding: 0.65rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: #fff;
+    /* posicion del texto */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.names {
+    color: #936213;
+    font-family: Great Vibes;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.date {
+    display: inline-flex;
+    padding: 0.65rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: #fff;
+    /* posicion del texto */
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #936213;
+    font-family: Great Vibes;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Finaliza Hero */
+
+/* Empieza Countdown */
+
+.countdown {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.countdown-div {
+    width: 80%;
+    max-width: 1280px;
+    background-color: #fff;
+
+}
+
+.countdown-text {
+    text-align: center;
+    font-family: Great Vibes;
+    color: #936213;
+    font-size: 2.5rem;
+    background-color: #fff;
+}
+

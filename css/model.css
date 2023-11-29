@@ -40,6 +40,8 @@
     color: black;
 }
 
+
+
 .--blue {
     border: 2px solid #2F7BBD;
     box-shadow: 0px 4px 4px 0px #2F7BBD;
@@ -47,4 +49,5 @@
 
 .pc-selector, .smartphone-selector {
     color: black;
+    text-decoration: none;
 }
