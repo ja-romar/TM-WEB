@@ -362,3 +362,95 @@ body {
     line-height: normal;
 
 }
+
+/* Comments Section */
+
+.comments {
+        max-width: 1280px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 90%;
+        max-width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem 10rem;
+        background-color: #E4E4E4;
+        margin: 0 auto;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 4rem;
+    background-color: #E4E4E4;
+}
+
+.comment-container {
+    display: flex;
+    gap: 5rem;
+    width: 69.875rem;
+    height: 15.6875rem;
+    background-color: #E4E4E4;
+}
+
+.image-comment1 {
+    width: 19.875rem;
+    height: 15.6875rem;
+    background-image: url(/images/aurum/comment1-image.png);
+}
+
+.image-comment2 {
+    width: 19.875rem;
+    height: 15.6875rem;
+    background-image: url(/images/aurum/comment2-image.png);
+}
+
+.image-comment3 {
+    width: 19.875rem;
+    height: 15.6875rem;
+    background-image: url(/images/aurum/comment3-image.png);
+}
+
+
+
+.text-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44.875rem;
+    height: 15.6875rem;
+    background-color: #fff;
+}
+
+.comment-text {
+    background-color: transparent;
+    color: #936213;
+    text-align: center;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: .5rem;
+}
+
+.comment-name {
+    color: #936213;
+    text-align: center;
+    font-family: Baskervville;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+}
