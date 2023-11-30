@@ -109,7 +109,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem 8rem;
+    gap: 4rem 10rem;
     background-color: #E4E4E4;
 }
 
@@ -224,4 +224,141 @@ body {
 
 /* Empieza utilities */
 
+.utilities {
+    max-width: 1280px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 90%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem 10rem;
+    background-color: #E4E4E4;
+    margin: 0 auto;
+}
 
+.utilities-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    gap: 4rem;
+    background-color: #E4E4E4;
+}
+
+
+.utilitie-container {
+    
+    width: 19.875rem;
+    height: 29.8125rem;
+    flex-shrink: 0;
+    background-color: #fff;
+}
+
+.image-gifts {
+    width: 19.875rem;
+    height: 24.125rem;
+    background-image: url(/images/aurum/git-image.png);
+}
+
+.image-playlist {
+    width: 19.875rem;
+    height: 24.125rem;
+    background-image: url(/images/aurum/playlist-image.png);
+}
+
+.image-calendar {
+    width: 19.875rem;
+    height: 24.125rem;
+    background-image: url(/images/aurum/calendar-image.png);
+}
+
+.utilitie-title {
+    color: #936213;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+/* Starts surprises section */
+
+.surprises {
+    max-width: 1280px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 90%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem 10rem;
+    background-color: #E4E4E4;
+    margin: 0 auto;
+}
+
+.surprises-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    gap: 4rem;
+    background-color: #E4E4E4;
+}
+
+.surprise-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 19.875rem;
+    height: 11.9375rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), url(/images/aurum/surprise1-image.png), lightgray 50% / cover no-repeat;
+    background-color: #fff;
+}
+
+.surprise-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 19.875rem;
+    height: 11.9375rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), url(/images/aurum/surprise2-image.png), lightgray 50% / cover no-repeat;
+    background-color: #fff;
+}
+
+.surprise-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 19.875rem;
+    height: 11.9375rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), url(/images/aurum/surprise3-image.png), lightgray 50% / cover no-repeat;
+    background-color: #fff;
+}
+
+.surprise-title {
+    text-align: center;
+    background-color: transparent;
+    color: #936213;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
