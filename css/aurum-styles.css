@@ -518,3 +518,10 @@ input, textarea {
 input[type="file"] {
     font-family: Baskervville;
 }
+
+input[type="submit"] {
+    width: 10rem;
+    font-family: Baskervville;
+    font-size: 1.25rem;
+    color: #936213;
+}
