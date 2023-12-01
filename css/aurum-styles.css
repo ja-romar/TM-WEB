@@ -64,6 +64,7 @@ body {
 /* Empieza Countdown */
 
 .countdown {
+    height: 14.6875rem; 
     margin-top: 5rem;
     display: flex;
     align-items: center;
@@ -453,4 +454,67 @@ body {
     font-weight: 400;
     line-height: normal;
     background-color: transparent;
+}
+
+.form-title {
+    text-align: center;
+    background-color: transparent;
+    color: #936213;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Format Section */
+
+.format {
+    gap: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 1280px;
+    background-color: transparent;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: Baskervville;
+    color: #936213;
+    font-size: 1.25rem;
+    background-color: #E4E4E4;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    background-color: #E4E4E4;
+}
+
+input, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 2rem;
+}
+
+textarea {
+    height: 4rem;
+}
+
+input, textarea {
+    background-color: #fff;
+    border: 1px solid #936213;
+}
+
+#foto {
+    background-color: transparent;
+    border: none;
+    font-family: Baskervville;
+}
+
+input[type="file"] {
+    font-family: Baskervville;
 }
