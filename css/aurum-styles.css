@@ -465,33 +465,37 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 1rem;
 }
 
 /* Format Section */
 
 .format {
-    gap: 6rem;
+    gap: 2rem;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     max-width: 1280px;
-    background-color: transparent;
+    background-color: #fff;
 
 }
 
 form {
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     flex-direction: column;
     font-family: Baskervville;
     color: #936213;
     font-size: 1.25rem;
-    background-color: #E4E4E4;
+    background-color: transparent;
+    padding-bottom: 3rem;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
-    background-color: #E4E4E4;
+    background-color: transparent;
 }
 
 input, textarea {
