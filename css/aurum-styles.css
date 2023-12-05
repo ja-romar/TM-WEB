@@ -465,7 +465,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 1rem;
+    padding-top: 7rem;
 }
 
 /* Format Section */
@@ -483,6 +483,7 @@ body {
 form {
     margin: 0 auto;
     width: 70%;
+    height: 32.4375rem;
     display: flex;
     flex-direction: column;
     font-family: Baskervville;
