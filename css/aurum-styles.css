@@ -530,3 +530,23 @@ input[type="submit"] {
     font-size: 1.25rem;
     color: #936213;
 }
+
+.gallery-container {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: white;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
