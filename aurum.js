@@ -1,4 +1,4 @@
-const images = ["image1.jpg", "image2.jpg"];
+const images = ["/images/aurum/image1.jpg", "/images/aurum/image2.jpg"];
 let currentIndex = 0;
 
 const currentImgElement = document.getElementById("current-img");
