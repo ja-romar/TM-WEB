@@ -675,6 +675,9 @@ a {
 /* Media Querys */
 
 @media (max-width: 984px) {
+    p {
+        font-family: Baskervville;
+    }
     .item-container {
         width: 90%;
         height: 45rem;
